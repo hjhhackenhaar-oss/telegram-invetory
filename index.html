@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Item</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Telegram Mini App SDK -->
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+  <!-- App styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h2>Add Item</h2>
+
+    <input id="item" placeholder="Item name">
+    <input id="price" type="number" placeholder="Price">
+    <input id="code" placeholder="Code">
+
+    <button onclick="submitData()">Add</button>
+
+    <p id="status"></p>
+  </div>
+
+  <!-- App logic -->
+  <script src="app.js"></script>
+</body>
+</html>
