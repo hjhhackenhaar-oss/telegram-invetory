@@ -3,7 +3,7 @@ const tg = window.Telegram.WebApp;
 tg.expand();
 
 // 🔴 VERY IMPORTANT: paste your Apps Script URL here
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwQrac0YmQgkjnbUOjllVxScbqmxikk-cBBpKD6HSSXe_MFYwDw5WEMrKFjNPJb7qUN/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyB9RYq76glIPdBPVwW19qlKAKaZ6dF2JMX4pskXby-QuQTiqcmSnk4ZyVGJ-XcPe50/exec";
 
 function submitData() {
   const item = document.getElementById("item").value;
